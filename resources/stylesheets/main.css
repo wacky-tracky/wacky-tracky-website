@@ -40,16 +40,21 @@ div#links {
 
 div#overview {
 	background-color: #dedede;
-	border-radius: .4em;
+	border-radius: 1em;
 	width: 60%;
 	margin: auto;
 	margin-top: 3em;
 	padding: 1em;
 }
 
-div#overview img {
+div#overview img.screenshot {
 	float: right;
 	border: 0;
+}
+
+div#overview img.icon {
+	vertical-align: middle;
+	margin-right: .2em; 
 }
 
 div#overview a {
@@ -68,6 +73,7 @@ h1, h2 {
 
 h1 {
 	font-size: 40pt;
+	margin-top: -.2em;
 }
 
 h2 {
