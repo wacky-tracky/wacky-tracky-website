@@ -89,3 +89,12 @@ div#features {
 li:target {
 	border: 1px solid black;
 }
+
+#login {
+	margin: 4em;
+	text-align: center;
+}
+
+.openidLogin {
+	width: 320px;
+}
