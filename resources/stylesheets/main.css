@@ -8,13 +8,14 @@ body {
 
 div#features {
 	display: flex;
+	flex-wrap: wrap;
 	font-size: 90%;
 	margin-top: 6em;
 }
 
 
-div#features li {
-	text-align: left;
+div#features div {
+	max-width: 300px;
 	padding: .2em;
 	border-radius: .5em;
 	border: 1px solid white;
