@@ -136,3 +136,9 @@ hr {
 	margin-top: 2em;	
 	margin-bottom: 2em;
 }
+
+@media only screen and (max-width: 600px) {
+	body {
+		width: auto;
+	}
+}
