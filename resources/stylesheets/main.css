@@ -6,17 +6,14 @@ body {
 	line-height: 1.5;
 }
 
-ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	text-align: center;
+div#features {
+	display: flex;
+	font-size: 90%;
+	margin-top: 6em;
 }
 
-li {
-	display: inline-block;
-	width: 20%;
-	vertical-align: top;
+
+div#features li {
 	text-align: left;
 	padding: .2em;
 	border-radius: .5em;
@@ -78,11 +75,6 @@ h1 {
 
 h2 {
 	font-size: 16pt;
-}
-
-div#features {
-	font-size: 90%;
-	margin-top: 6em;
 }
 
 li:target {
