@@ -135,4 +135,11 @@ hr {
 	body {
 		width: auto;
 	}
+
+	div#overview {
+		width: auto;
+		border-radius: auto;
+		margin-top: 0;
+	}
+
 }
