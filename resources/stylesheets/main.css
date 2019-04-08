@@ -11,6 +11,7 @@ div#features {
 	flex-wrap: wrap;
 	font-size: 90%;
 	margin-top: 6em;
+	justify-content: center;
 }
 
 
