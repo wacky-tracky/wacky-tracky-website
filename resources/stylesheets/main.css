@@ -6,7 +6,7 @@ body {
 	line-height: 1.5;
 }
 
-div#features {
+div.features {
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 90%;
@@ -15,7 +15,7 @@ div#features {
 }
 
 
-div#features div {
+div.features div {
 	max-width: 300px;
 	padding: .2em;
 	border-radius: .5em;
